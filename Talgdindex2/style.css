@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* navigation css section */
+
+.nav-section {
+    margin: 50px 150px;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.nav-container .logo {
+    color: #224F34;
+    padding: 5px 10px;
+}
+
+.nav-list-container .list {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.nav-list-container .list a {
+    text-decoration: none;
+    color: #224F34;
+}
+
+.nav-container .nav-contact-btn {
+    border: 2px solid #224F34;
+    padding: 5px 10px;
+    color: #224F34;
+    text-decoration: none;
+}
+
+.nav-section .nav-heading-container {
+    text-align: center;
+}
+
+.nav-heading-container .nav-heading-one {
+    font-size: 40px;
+    padding: 30px;
+    color: #224F34;
+
+}
+.nav-heading-container .nav-heading-two {
+    color: #267D49;
+}
+
+.nav-btn-container {
+    padding: 30px;
+}
+
+.nav-btn-container .nav-btn {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+
+/* section one css */
+
+.image-one-container {
+    display: flex;
+    justify-content: center;
+}
+
+.image-one-container img {
+    width: 1035px;
+    height: 530px;
+}
+
+.section-one-text {
+    margin: 0 150px;
+}
+
+.section-one-text .first {
+    font-size: 22px;
+    padding: 10px 5px;
+}
+
+
+
+/* section two css */
+
+.section-two {
+    display: flex;
+    justify-content: center;
+    gap: 240px;
+    margin: 50px 150px;
+}
+
+.section-two-container {
+    border-radius: 20px;
+    background-color: black;
+    padding: 20px;
+}
+
+.section-two-text-container .first {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+}
+
+.section-two-text-container .second {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+}
+
+.img-two-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 10px;
+}
+
+.img-two-container img {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+/* section three css */
+
+.section-three {
+    display: flex;
+    justify-content: center;
+    margin: 50px 150px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.section-three-container .first-heading {
+    font-size: 30px;
+    padding: 10px 30px;
+    font-weight: 600;
+}
+
+.section-three-container .second-heading {
+    font-size: 25px;
+    padding: 10px 30px;
+    font-weight: bold;
+}
+
+.section-three-list-container,
+.section-four-list-container {
+    padding: 10px 50px;
+}
+
+.section-three-list-container ul li,
+.section-four-list-container ul li {
+    font-size: 22px;
+}
+
+.download-container .download-link {
+    font-size: 22px;
+    color: black;
+    font-weight: bold;
+}
+
+.download-container {
+    position: relative;
+    display: flex;
+    gap: 10px;
+}
+
+.download-container .download-img {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 3px;
+}
+
+/* section four css */
+
+.section-four {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin: 50px 150px;
+    border-radius: 10px;
+}
+
+.border-container {
+    border: 5px solid black;
+    border-radius: 10px;
+
+}
+
+.section-four-container {
+    margin: 100px auto;
+}
+
+.section-four-container .section-four-heading {
+    font-size: 25px;
+    padding: 10px 30px;
+    font-weight: bold;
+}
+
+.section-four-second .section-four-second-heading{
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.section-four-img-container,
+.section-four-img-container img {
+    position: relative;
+    width: 100%;
+}
+
+.section-four-img-container span {
+    position: absolute;
+    left: 50px;
+    bottom: 20px;
+    font-size: 22px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px 15px;
+}
+
+/* section five css */
+
+.section-five {
+    margin: 50px 150px;
+}
+
+.section-five-container {
+    height: 596px;
+    width: 100%;
+    background-image: url("./images/Vector.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-five-container .section-five-heading {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 50px;
+
+}
+
+.section-five-container .section-five-heading-two {
+    text-align: center;
+    font-size: 22px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+
+}
+
+.btn-container .btn {
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
