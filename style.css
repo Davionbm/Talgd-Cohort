@@ -14,8 +14,7 @@ li, a, button {
 
 .container {
     background: #C2EFD4;
-    max-width: 1300px;
-    margin: auto;
+    max-width: 2000px;
     padding-left: 25px;
     padding-right: 25px;
 }
@@ -24,7 +23,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;
+    padding: 30px 5%;
 }
 
 .logo {
@@ -72,7 +71,7 @@ button {
 .col-2 img {
     max-width: 100%;
     padding: 50px 0;
-    width: 400px;
+    width: 500px;
     /* height: 400px; */
 }
 
@@ -140,7 +139,7 @@ button {
 
 /* OUR SERVICES */
 
-.col-4 {
+/* .col-4 {
     flex-basis: 25%;
     padding: 10px;
     min-width: 200px;
@@ -197,7 +196,7 @@ h4 {
 
 .col-4:hover {
     transform: translateY(-5px);
-}
+} */
 
 /* EXCLUSIVE OFFER */
 .offer-container {
@@ -276,4 +275,131 @@ h4 {
 
 .susan {
     color: #224F34;
+}
+
+/* FOOTER */
+
+.footer {
+    margin-top: 180px;
+    background: #224F34;
+    font-size: 12px;
+    padding: 50px 5% 5px;
+}
+
+.footer-col img {
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+.footer-col a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    /* color: #777; */
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.footer-col {
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+
+.footer-col .row {
+    align-items: flex-start;
+    padding: 10px 0;
+}
+
+.email-signup {
+    width: 40%;
+    display: flex;
+}
+
+.email-signup input {
+    background: transparent;
+    padding-left: 10px;
+    color: #C2EFD4;
+}
+
+
+.email-signup button {
+    background: #C2EFD4;
+    /* border: 1px solid #C2EFD4; */
+    outline: none;
+    color: #224F34;
+    font-size: 13px;
+    cursor: pointer;
+    padding: 12px 15px;
+}
+
+.fab {
+    color: #C2EFD4;
+    /* font-size: 25px; */
+    /* padding-left: 5px; */
+}
+
+.fa-bars  {
+    width: 28px;
+    margin-left: 20px;
+    display: none;
+}
+
+/* media query for menu */
+
+@media only screen and (max-width: 800px) {
+    nav ul {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: #333;
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+
+    .cta {
+        display: none;
+    }
+
+    nav ul li {
+        display: block;
+        /* margin-right: 90px; */
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    nav ul li a {
+        color: #fff;
+    }
+
+    .fa-bars {
+        display: block;
+        cursor: pointer;
+    }
+}
+
+/* media query for less than 600px screen size */
+
+@media only screen and (max-width: 600px) {
+    .row, .course-container {
+        text-align: center;
+    }
+    .col-2,.col-3,.course {
+        flex-basis: 100%;
+    }
+    .col-2 h1{
+        font-size: 36px;
+    }
+    .col-2 p {
+        font-size: 13px;
+        line-height: 30px;
+    }
+    .offer-container {
+        width: 80%;
+        height: 80vh;    
+    }
+    .col-5 p {
+        font-size: 15px;
+    } 
+
 }
